@@ -1,0 +1,29 @@
+.OrderItem {
+	display: grid;
+	grid-template-columns: auto 1fr auto auto;
+	gap: 16px;
+	margin-right: 5px;
+	margin-bottom: 24px;
+	align-items: center;
+}
+.OrderItem figure {
+	margin: 0;
+}
+.OrderItem figure img {
+	width: 70px;
+	height: 70px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+.imgClose:hover{
+	filter: invert(59%) sepia(95%) saturate(404%) hue-rotate(77deg) brightness(94%) contrast(100%);
+	cursor: pointer;
+	-webkit-filter: invert(59%) sepia(95%) saturate(404%) hue-rotate(77deg) brightness(94%) contrast(100%);
+} 
+.OrderItem p:nth-child(2) {
+	color: var(--very-light-pink);
+}
+.OrderItem p:nth-child(3) {
+	font-size: var(--md);
+	font-weight: bold;
+}
