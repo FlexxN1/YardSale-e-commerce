@@ -6,10 +6,10 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[contenthash].js',
+        filename: 'bundle.js',
         publicPath: '/'
     },
-    mode: 'production',
+    mode: 'development',
     resolve: {
         extensions: ['.js', '.jsx'],
         alias: {
@@ -63,9 +63,11 @@ module.exports = {
             filename: '[name].css'
         })
     ],
-    /*devServer: {
-        historyApiFallback: true
-    }*/
+    devServer: {
+        compress: true,
+        historyApiFallback: true,
+        port: 3000
+    }
     /*devServer: {
         static: path.join(__dirname, 'dist'), esta es la nueva forma de configurar el 'devServer' con esta configuracion tambien nos deja ejecutar el comando 'npm run start'
         compress: true,
