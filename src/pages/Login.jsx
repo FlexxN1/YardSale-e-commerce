@@ -17,7 +17,7 @@ const Login = () => {
 	return (
 		<div className="Login">
 			<div className="Login-container">
-				<img src={logo} alt="logo" className="logo" />
+				<img src={logo} alt="logo" className="login-logo" />
 				<form action="/" className="form" ref={form} >
 					<label htmlFor="email" className="label">Email address</label>
 					<input type="email" name="email" placeholder="Flexx@example.cm" className="input input-email" />

@@ -8,10 +8,11 @@
 	right: 50px;
 	background-color: var(--white);
 	top: 61px;
-	animation: swipTop ease 4s;
-	-webkit-animation: swipTop ease 0.28s;
+	animation: swipTop1 ease 0.28s;
+	-webkit-animation: swipTop1 ease 0.28s;
+	box-shadow: -5px 13px 14px 0px rgba(0, 0, 0, 0.39);
 }
-@keyframes swipTop {
+@keyframes swipTop1 {
 	0% {
 		top: 50px;
 	}

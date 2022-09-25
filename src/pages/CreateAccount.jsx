@@ -8,11 +8,11 @@ const CreateAccount = () => {
 				<h1 className="title">My account</h1>
 				<form action="/" className="form">
 					<div>
-						<label for="name" className="label">Name</label>
-						<input type="text" id="name" placeholder="Teff" className="input input-name" />
-						<label for="email" className="label">Email</label>
-						<input type="text" id="email" placeholder="platzi@example.com" className="input input-email" />
-						<label for="password" className="label">Password</label>
+						<label htmlFor="name" className="label">Name</label>
+						<input type="text" id="name" placeholder="Name" className="input input-name" />
+						<label htmlFor="email" className="label">Email</label>
+						<input type="email" id="email" placeholder="Flexx@example.com" className="input input-email" />
+						<label htmlFor="password" className="label">Password</label>
 						<input type="password" id="password" placeholder="*********" className="input input-password" />
 					</div>
 					<input type="submit" value="Create" className="primary-button login-button" />

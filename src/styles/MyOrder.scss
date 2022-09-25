@@ -15,6 +15,7 @@
 	-o-border-radius: 6px;
 	border: 1px solid var(--very-light-pink);
 	-webkit-animation: swipLeft 0.26s ease;
+	box-shadow: -5px 13px 14px 0px rgba(0, 0, 0, 0.39);
 }
 .my-order-content {
 	height: 400px;
@@ -47,6 +48,7 @@
 
 .title-container {
 	display: flex;
+	cursor: pointer;
 }
 .title-container img {
 	transform: rotate(180deg);
@@ -94,5 +96,13 @@
 @media (max-width: 640px) {
 	.MyOrder {
 		width: 100%;
+	}
+	@keyframes swipLeft {
+		0% {
+			width: 0;
+	}
+		100% {
+			width: 100%;
+	}
 	}
 }

@@ -3,15 +3,18 @@ nav {
     position: sticky;
     top: 0;
     background-color: var(--white);
+    align-items: center;
     justify-content: space-between;
     padding: 0 24px;
     border-bottom: 1px solid var(--very-light-pink);
 }
 .menu {
     display: none;
+    cursor: pointer;
 }
 .nav-logo {
     width: 100px;
+    margin: auto 0;
 }
 .navbar-left ul,
 .navbar-right ul {
