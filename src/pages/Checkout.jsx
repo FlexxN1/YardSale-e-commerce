@@ -9,11 +9,11 @@ const Checkout = ({ setToggle }) => {
 	const { state } = useContext(AppContext);
 	const today = new Date(Date.now()).toLocaleString().split(', ')[0];
 	return (
-		<div className="Checkout animation">
+		<div className="Checkout">
 			<div className="Checkout-container">
-				<div className="title-container" onClick={() => setToggle(false)}>
-					<img className='arrowImg' src={arrow} alt="arrow" />
-					<h1 className="title">My order</h1>
+				<div className="title-container">
+					<img className='arrowImg' src={arrow} alt="arrow" onClick={() => setToggle(false)}/>
+					<h1 className="title2">My order</h1>
 				</div>
 				<div className="Checkout-content">
 					<div className="order">

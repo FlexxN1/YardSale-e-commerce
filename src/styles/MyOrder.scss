@@ -45,16 +45,15 @@
 		width: 360px;
 	}
 }
-
-.title-container {
+.title-containerOrder {
 	display: flex;
-	cursor: pointer;
 }
-.title-container img {
+.title-containerOrder img {
 	transform: rotate(180deg);
 	margin-right: 14px;
+	cursor: pointer;
 }
-.title {
+.title1 {
 	font-size: var(--lg);
 	font-weight: bold;
 }

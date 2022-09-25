@@ -29,12 +29,18 @@
 		height: 100%;
 	}
 }
-.title {
+.title2 {
 	font-size: var(--lg);
-	margin-bottom: 40px;
+	font-weight: bold;
 }
 .arrowImg {
 	cursor: pointer;
+	transform: rotate(180deg);
+	margin-right: 14px;
+	cursor: pointer;
+}
+.title-container {
+	display: flex;
 }
 .Checkout-container {
 	display: grid;

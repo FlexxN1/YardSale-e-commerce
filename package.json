@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --mode production --config webpack.config.js && echo '/* /index.html 200' | cat > dist/_redirects",
-    "build": "webpack --mode production"
+    "start": "webpack serve --open --config webpack.config.dev.js",
+    "build": "webpack --mode production --config webpack.config.js && echo '/* /index.html 200' | cat > dist/_redirects"
   },
   "keywords": [
     "react",
