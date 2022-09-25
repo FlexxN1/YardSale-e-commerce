@@ -3,7 +3,6 @@
 Es una SPA construida en React.js con el objetivo de simular una tienda virtual de comercio.
 
 Recursos :
-- React Router DOM: implementado para poder navegar entre rutas por el sitio.
 
 - [API-FakeStore](https://fakestoreapi.com/)
 
