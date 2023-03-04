@@ -1,4 +1,4 @@
-# Flexx Commerce 🛒
+# Flexx Commerce 🛒🛍
 
 Es una SPA construida en React.js con el objetivo de simular una tienda virtual de comercio.
 
