@@ -11,6 +11,7 @@ const ProductList = () => {
 	return (
 		<section className="main-container">
 			<div className="ProductList">
+				  {productss}
 			</div>
 		</section>
 	);
